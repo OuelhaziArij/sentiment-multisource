@@ -1,0 +1,10 @@
+Modèle,CV accuracy (moy),CV accuracy (écart-type),CV macro-F1 (moy),CV macro-F1 (écart-type),CV poolée 42 textes accuracy (moy),Externe accuracy (18 textes OCR+ASR réf.),Externe macro-F1,predict_proba
+Baseline (classe majoritaire),0.333,0.0,0.167,0.0,0.286,0.333,0.167,True
+"TF-IDF mots (1,1) + LogReg C=10",0.26,0.132,0.222,0.124,0.654,0.778,0.777,True
+"TF-IDF mots (1,2) + LogReg C=10",0.27,0.137,0.232,0.13,0.649,0.833,0.833,True
+"TF-IDF mots (1,2) + LogReg C=100",0.268,0.139,0.232,0.132,0.646,0.833,0.833,True
+"TF-IDF car. (2,5) + LogReg C=10",0.258,0.177,0.226,0.174,0.702,0.889,0.889,True
+TF-IDF mots+car. + LogReg C=10,0.268,0.163,0.234,0.16,0.688,0.833,0.833,True
+TF-IDF mots+car. + LogReg C=100,0.265,0.16,0.23,0.158,0.689,0.833,0.833,True
+"TF-IDF mots (1,2) + LinearSVC C=1",0.26,0.142,0.224,0.134,0.648,0.833,0.833,False
+TF-IDF mots+car. + LinearSVC C=1,0.26,0.162,0.226,0.159,0.692,0.833,0.833,False

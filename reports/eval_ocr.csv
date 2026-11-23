@@ -1,0 +1,38 @@
+fichier,texte_ocr_brut,texte_ocr_nettoye,similarite,CER,WER,sentiment_ref,sentiment_predit,confiance,correct
+I01.png,"CAPTURE AVIS CLIENT — I101.png
+AVIS CLIENT VÉRIFIÉ — % xx x x
+Livraison express et produit parfait !
+Je recommanderai sans hésiter.",AVIS CLIENT VÉRIFIÉ — % xx x x Livraison express et produit parfait ! Je recommanderai sans hésiter.,0.961,0.081,0.25,positif,neutre,0.3771,False
+I02.png,"CAPTURE AVIS CLIENT — 102.png
+RÉCLAMATION COMMANDE #9921
+Colis ouvert et article manquant.
+Service client injoignable, inadmissible !","RÉCLAMATION COMMANDE #9921 Colis ouvert et article manquant. Service client injoignable, inadmissible !",1.0,0.0,0.0,negatif,negatif,0.4118,True
+I03.png,"CAPTURE AVIS CLIENT — 103.png
+SUIVI DE LIVRAISON #4510
+Votre colis a été déposé en point relais.
+Poids du paquet : 1,2 kg.","SUIVI DE LIVRAISON #4510 Votre colis a été déposé en point relais. Poids du paquet : 1,2 kg.",1.0,0.0,0.0,neutre,neutre,0.6674,True
+I04.png,"CAPTURE AVIS CLIENT — 104.png
+POST RÉSEAU SOCIAL — @ClientHeureux
+Incroyable qualité pour ce prix !
+
+Merci pour la rapidité d'expédition.",POST RÉSEAU SOCIAL — @ClientHeureux Incroyable qualité pour ce prix ! Merci pour la rapidité d'expédition.,1.0,0.0,0.0,positif,positif,0.7212,True
+I05.png,"CAPTURE AVIS CLIENT — 105.png
+CAPTURE D'ÉCRAN — RETOUR PRODUIT
+L'appareil ne s'allume plus après 2 jours.
+Très mauvaise expérience d'achat.",CAPTURE D'ÉCRAN — RETOUR PRODUIT L'appareil ne s'allume plus après 2 jours. Très mauvaise expérience d'achat.,1.0,0.0,0.0,negatif,negatif,0.5379,True
+I06.png,"CAPTURE AVIS CLIENT — 106.png
+FICHE PRODUIT — SPÉCIFICATIONS
+Modèle standard livré avec câble USB.
+Dimensions : 20 x 15 x 5 cm.",FICHE PRODUIT — SPÉCIFICATIONS Modèle standard livré avec câble USB. Dimensions : 20 x 15 x 5 cm.,1.0,0.0,0.0,neutre,neutre,0.7986,True
+I07.png,"CAPTURE AVIS CLIENT — 107.png
+NOTE DE SATISFACTION : 10/10
+Superbe finition et emballage impeccable.
+Une boutique en ligne très fiable.",NOTE DE SATISFACTION : 10/10 Superbe finition et emballage impeccable. Une boutique en ligne très fiable.,1.0,0.0,0.0,positif,positif,0.6354,True
+I08.png,"CAPTURE AVIS CLIENT — 108.png
+TICKET DE CAISSE / LITIGE
+Erreur de facturation : montant débité deux fois.
+Aucun remboursement reçu à ce jour.",TICKET DE CAISSE / LITIGE Erreur de facturation : montant débité deux fois. Aucun remboursement reçu à ce jour.,1.0,0.0,0.0,negatif,negatif,0.801,True
+I09.png,"CAPTURE AVIS CLIENT — 109.png
+CONFIRMATION DE RÉCEPTION
+Commande #7783 bien réceptionnée.
+Statut : Livraison terminée.",CONFIRMATION DE RÉCEPTION Commande #7783 bien réceptionnée. Statut : Livraison terminée.,1.0,0.0,0.0,neutre,negatif,0.3933,False

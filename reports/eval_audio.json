@@ -1,0 +1,71 @@
+{
+  "fichiers": [
+    {
+      "fichier": "A01.mp3",
+      "decodage_ffmpeg_ok": true,
+      "sentiment_ref": "positif",
+      "predit_sur_transcription_reference": "positif",
+      "confiance": 0.6232
+    },
+    {
+      "fichier": "A02.mp3",
+      "decodage_ffmpeg_ok": true,
+      "sentiment_ref": "negatif",
+      "predit_sur_transcription_reference": "negatif",
+      "confiance": 0.6216
+    },
+    {
+      "fichier": "A03.mp3",
+      "decodage_ffmpeg_ok": true,
+      "sentiment_ref": "neutre",
+      "predit_sur_transcription_reference": "neutre",
+      "confiance": 0.4943
+    },
+    {
+      "fichier": "A04.mp3",
+      "decodage_ffmpeg_ok": true,
+      "sentiment_ref": "positif",
+      "predit_sur_transcription_reference": "positif",
+      "confiance": 0.8666
+    },
+    {
+      "fichier": "A05.mp3",
+      "decodage_ffmpeg_ok": true,
+      "sentiment_ref": "negatif",
+      "predit_sur_transcription_reference": "positif",
+      "confiance": 0.5138
+    },
+    {
+      "fichier": "A06.mp3",
+      "decodage_ffmpeg_ok": true,
+      "sentiment_ref": "neutre",
+      "predit_sur_transcription_reference": "neutre",
+      "confiance": 0.5454
+    },
+    {
+      "fichier": "A07.mp3",
+      "decodage_ffmpeg_ok": true,
+      "sentiment_ref": "positif",
+      "predit_sur_transcription_reference": "positif",
+      "confiance": 0.595
+    },
+    {
+      "fichier": "A08.mp3",
+      "decodage_ffmpeg_ok": true,
+      "sentiment_ref": "negatif",
+      "predit_sur_transcription_reference": "negatif",
+      "confiance": 0.7034
+    },
+    {
+      "fichier": "A09.mp3",
+      "decodage_ffmpeg_ok": true,
+      "sentiment_ref": "neutre",
+      "predit_sur_transcription_reference": "neutre",
+      "confiance": 0.49
+    }
+  ],
+  "whisper": {
+    "execute": true,
+    "modele": "tiny"
+  }
+}

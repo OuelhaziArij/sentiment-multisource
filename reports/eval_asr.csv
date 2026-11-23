@@ -1,0 +1,10 @@
+fichier,transcription,similarite,CER,WER,sentiment_ref,sentiment_predit,confiance,correct
+A01.mp3,"Bonjour, je suis vraiment ravie de ma commande. Le produit est magnifique et livré très vite.",0.994,0.011,0.062,positif,positif,0.5256,True
+A02.mp3,C'est scandaleux. J'ai reçu un article défectueux et personne ne répondait les fun.,0.902,0.108,0.2,negatif,negatif,0.5866,True
+A03.mp3,"Bonjour, je confirme à voir bien resumen collier aujourd'hui comme a dit qu'est sur le suivi.",0.891,0.167,0.6,neutre,negatif,0.3678,False
+A04.mp3,"Excellents rapport qualité-pris, je recommande cette boutique les yeux fermés.",0.98,0.027,0.182,positif,positif,0.8652,True
+A05.mp3,"Très mécontente la livraison, le carton était écrasé et l'objet est inutilisable.",0.988,0.025,0.143,negatif,positif,0.5227,False
+A06.mp3,Le produit correspond à la description sur le site. La taille est conforme.,1.0,0.0,0.0,neutre,neutre,0.5454,True
+A07.mp3,Bravo au service client pour sa réactivité et sa gentils S. 5 étoiles.,0.935,0.11,0.167,positif,positif,0.5134,True
+A08.mp3,J'a demande le remboursement immédiat. Le produit ne fonctionne pas du tout.,0.98,0.027,0.167,negatif,negatif,0.7034,True
+A09.mp3,"Collier récupérée en boutique ce matin, tout est conforme au bon de commande.",0.966,0.056,0.154,neutre,neutre,0.4297,True

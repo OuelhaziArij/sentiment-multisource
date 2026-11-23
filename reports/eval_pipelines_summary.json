@@ -1,0 +1,17 @@
+{
+  "ocr": {
+    "similarite_moy": 0.9956666666666667,
+    "CER_moy": 0.009000000000000001,
+    "WER_moy": 0.027777777777777776,
+    "accuracy": 0.7777777777777778
+  },
+  "audio": {
+    "whisper": {
+      "execute": true,
+      "modele": "tiny"
+    },
+    "ffmpeg_ok": 9,
+    "classif_sur_reference": 8,
+    "n": 9
+  }
+}

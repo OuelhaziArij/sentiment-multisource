@@ -1,0 +1,133 @@
+{
+  "modele_retenu": "TF-IDF mots+car. + LogReg C=10",
+  "seed": 42,
+  "cv": "RepeatedStratifiedKFold(4 plis x 25 répétitions)",
+  "n_train": 24,
+  "n_externe": 18,
+  "cv_confusion_matrix": [
+    [
+      57,
+      82,
+      61
+    ],
+    [
+      45,
+      73,
+      82
+    ],
+    [
+      107,
+      62,
+      31
+    ]
+  ],
+  "cv_classification_report": {
+    "positif": {
+      "precision": 0.2727272727272727,
+      "recall": 0.285,
+      "f1-score": 0.2787286063569682,
+      "support": 200.0
+    },
+    "negatif": {
+      "precision": 0.33640552995391704,
+      "recall": 0.365,
+      "f1-score": 0.3501199040767386,
+      "support": 200.0
+    },
+    "neutre": {
+      "precision": 0.1781609195402299,
+      "recall": 0.155,
+      "f1-score": 0.1657754010695187,
+      "support": 200.0
+    },
+    "accuracy": 0.2683333333333333,
+    "macro avg": {
+      "precision": 0.2624312407404732,
+      "recall": 0.2683333333333333,
+      "f1-score": 0.26487463716774184,
+      "support": 600.0
+    },
+    "weighted avg": {
+      "precision": 0.2624312407404732,
+      "recall": 0.2683333333333333,
+      "f1-score": 0.26487463716774184,
+      "support": 600.0
+    }
+  },
+  "externe_confusion_matrix": [
+    [
+      5,
+      0,
+      1
+    ],
+    [
+      1,
+      5,
+      0
+    ],
+    [
+      0,
+      1,
+      5
+    ]
+  ],
+  "externe_classification_report": {
+    "positif": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8333333333333334,
+      "support": 6.0
+    },
+    "negatif": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8333333333333334,
+      "support": 6.0
+    },
+    "neutre": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8333333333333334,
+      "support": 6.0
+    },
+    "accuracy": 0.8333333333333334,
+    "macro avg": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8333333333333334,
+      "support": 18.0
+    },
+    "weighted avg": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8333333333333334,
+      "support": 18.0
+    }
+  },
+  "externe_confiance_moyenne": 0.5996918719119324,
+  "externe_erreurs": [
+    {
+      "texte": "AVIS CLIENT VÉRIFIÉ — ★★★★★ Livraison express et produit parfait ! Je recommanderai sans hésiter.",
+      "attendu": "positif",
+      "predit": "neutre",
+      "confiance": 0.374
+    },
+    {
+      "texte": "CONFIRMATION DE RÉCEPTION Commande #7783 bien réceptionnée. Statut : Livraison terminée.",
+      "attendu": "neutre",
+      "predit": "negatif",
+      "confiance": 0.393
+    },
+    {
+      "texte": "Très mécontent de la livraison, le carton était écrasé et l'objet est inutilisable.",
+      "attendu": "negatif",
+      "predit": "positif",
+      "confiance": 0.514
+    }
+  ],
+  "labels": [
+    "positif",
+    "negatif",
+    "neutre"
+  ]
+}

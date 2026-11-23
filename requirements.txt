@@ -1,0 +1,16 @@
+# Runtime (versions testées sous Python 3.13)
+fastapi==0.165.0
+uvicorn==0.54.0
+pydantic==2.13.5
+python-multipart==0.0.32
+scikit-learn==1.9.1
+numpy==2.5.3
+pandas==3.0.5
+joblib==1.6.0
+pillow==12.3.0
+pytesseract==0.3.13
+streamlit==1.67.0
+httpx==0.28.1
+# ASR : NON installé ni exécuté dans l'environnement de développement (poids inaccessibles) ; version issue de la résolution pip
+openai-whisper==20250625
+# Binaires système : tesseract-ocr, tesseract-ocr-fra, ffmpeg
